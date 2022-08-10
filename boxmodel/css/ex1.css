@@ -1,0 +1,60 @@
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30;
+    margin-right: 50;
+    margin-bottom: 30;
+    margin-left: 60;
+    border: solid 1px grey;
+    padding: 20px;
+    background-color: black;
+}
+
+p
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aqua;
+    background-color: blue;
+    border: dashed 2px rgb(98, 206, 248);
+    padding: 10px 20px 30px 15px;
+}
+
+div
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: cyan;
+    background-color: blue;
+    border: dashed 2px rgb(98, 206, 248);
+    padding: 20px;
+    padding-top: 60px;
+    margin: 10px;
+    margin-left: 470px;
+    height: 100px;
+    width: 500px;
+    
+}
+
+h1
+{
+    color: rgb(0, 204, 255);    
+}
+
+h2
+{
+    color: rgb(18, 22, 246);
+}
+
+h3
+{
+    color: blueviolet;
+}
+
+h4
+{
+    color: blueviolet;
+}
+
+h5
+{
+    color: blueviolet;
+}
