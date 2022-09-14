@@ -1,0 +1,94 @@
+body
+{
+     font-family: 'Times New Roman', Times, serif;
+     width: 90%;
+     margin:0 auto;
+     background: linear-gradient(to right, #0b0a7c, #0b5694 );
+}
+
+header
+{
+    background: linear-gradient(to right, #04145c, #083f6d );
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    box-shadow: 9px 9px 10px #08101A98
+}
+
+.navegacao 
+{
+   overflow: hidden;
+}
+
+.navegacao a /* estilização dos hiperlinks */
+{
+    color: rgb(173, 173,173);
+    text-decoration: none; /* elimina o sublinhado */
+    float: right; /* disposição dos hiperlinks a direita */
+    padding: 10px;
+    
+}
+
+.navegacao a:hover
+{
+    color: #e32936;
+}
+
+.logo img
+{
+   
+    width: 50%;
+    padding-top: 40;
+}
+
+.principal
+{
+    display: flex; /* organiza a disposição do conteúdo. Neste caso colocou as divs de conteúdo uma ao lado da outra */
+    flex-direction: row;
+    margin: 15px  10px;
+}
+
+.central
+{
+    width: 70%;
+    background: linear-gradient(to right, #04145c, #083f6d );
+    color: rgb(173, 170, 170);
+    text-align: justify;
+    padding: 20px;
+    margin: 15px 10px 25px 10px;   
+    float: left;
+    border-radius: 7px;
+    box-shadow: 9px 9px 10px #08101A98
+    
+}
+
+.lateral  
+{   
+    width: 20%;
+    background: linear-gradient(to right, #04145c, #083f6d );
+    color: rgb(173, 170, 170);
+    text-align: justify;
+    padding: 15px;
+    margin: 15px 10px 25px 10px;
+    float: left;
+    border-radius: 7px;
+    box-shadow: 9px 9px 10px #08101A98
+    
+}
+
+.rodape
+{
+    color: darkgray;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+@media screen and (max-width:600px) /* responsividade. Alteração do layout de acordo com o tamanho da tela */
+{
+    body, .principal, .conteudo /* define os escopos a serem alterados */
+    {
+         flex-direction: column;
+         padding: 10px 30px;
+         
+    }
+}
